@@ -1,0 +1,19 @@
+{
+    "name": "message_lib",
+    "description": "",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "koheikameyama",
+            "email": "kohei.kameyama@react.tokyo"
+        }
+    ],
+    "autoload": {
+      "classmap": [
+        "Message.php",
+        "messages/",
+        "messages/items/"
+      ]
+    }
+}
